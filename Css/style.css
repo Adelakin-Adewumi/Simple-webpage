@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1070px;
+    margin: auto;
+}
+* body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    url("./brushes.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: azure;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.nav-area li a:hover{
+    background: pink;
+    color: #333;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    filter: pink;
+}
+.Welcome-text{
+    position: absolute;
+    margin: 20% 30%;
+    text-align: center;
+}
+.Welcome-text h1{
+    text-align: center;
+    color: pink;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.Welcome-text a{
+    border: 1px solid white;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+}
+.Welcome-text a:hover{
+    background: pink;
+    color: #333;
+}
+.Welcome-text p{
+    color: azure;
+    font-size: 20px;
+}
+.Welcome-text label{
+    font-size: 20px;
+    font-family: Georgia;
+    color: pink;
+}
